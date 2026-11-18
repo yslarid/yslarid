@@ -1,31 +1,22 @@
-# William Mazanik
+<p align="center">
+  <img src="./profile/header.svg" width="800" alt="William Mazanik · Full-stack developer. A technical drawing of a helical foundation pile." />
+</p>
 
-Full-stack software developer in Innisfil, Ontario. I build software for construction operations and the web, primarily in TypeScript, React and PostgreSQL.
+I write the software a helical pile dealer uses to schedule crews and bill jobs. I’m based in Innisfil, Ontario. Outside work, I run AnimeHalo, an anime and manga catalog.
 
-[Portfolio](https://williammazanik.com/) · [Public code samples](https://github.com/yslarid/software-previews) · [LinkedIn](https://www.linkedin.com/in/william-mazanik-6101b6201/)
+<p align="center">
+  <a href="https://github.com/yslarid/software-previews/blob/main/dealer-os.test.mjs#L75-L87"><img src="./profile/dealer-os.png" width="397" alt="Dealer OS sample. Fictional invoice INV-609 was linked to receipt QB-609-01 with one write. Open the recovery test." /></a>
+  <a href="https://animehalo.com/discover"><img src="./profile/animehalo.webp" width="397" alt="AnimeHalo’s public catalog. Open the live discovery page." /></a>
+</p>
 
-## Selected work
+**Dealer OS** · A lost reply from QuickBooks can leave a dispatcher wondering whether to send the invoice again. My recovery test reopens the SQLite journal and finds the original receipt after a restart. [Read the recovery test](https://github.com/yslarid/software-previews/blob/main/dealer-os.test.mjs#L75-L87)
 
-### Dealer OS
+**AnimeHalo** · Loading title details on demand brought the uncompressed startup catalog from 221 MB down to 4.3 MB. [Browse the catalog](https://animehalo.com/discover) · [Read the catalog tests](https://github.com/yslarid/software-previews/blob/main/animehalo.test.mjs#L60-L68)
 
-I built an operations platform for Techno Metal Post dealers that connects quoting, crew dispatch, billing and handover. An invoice can reach QuickBooks even if the network drops before it confirms receipt. Dealer OS records the attempt and reconciles uncertain outcomes before another send. I also built the Daylite migration for roughly 3,000 jobs and 3,200 contacts.
+**Jemparo** · I’m building tools for trade contractors. In CloseoutLink, a corrected repair gets a new receipt so the crew can still see what the first inspection found. [See how a correction is recorded](https://github.com/yslarid/software-previews/blob/main/closeout-receipts.test.mjs#L11-L30)
 
-[Recover a missing invoice receipt](https://williammazanik.com/dealer-os#preview) · [Read the SQLite recovery code](https://github.com/yslarid/software-previews/blob/main/dealer-os.mjs) · [Inspect the failure tests](https://github.com/yslarid/software-previews/blob/main/dealer-os.test.mjs)
+---
 
-### AnimeHalo
+**Daily tools** `TypeScript` · `React` · `Node.js` · `PostgreSQL`
 
-I built a public anime and manga discovery site. Its importers reconcile identifiers across four sources, save progress between requests, and feed ranked lists for a catalog of more than 17,000 anime titles. Loading title details on demand cut uncompressed startup catalog data from 221 MB to 4.3 MB (98%).
-
-[Explore the live ranked catalog](https://animehalo.com/list/best-anime) · [Run the catalog recovery preview](https://williammazanik.com/animehalo#preview) · [Read the AniList adapter](https://github.com/yslarid/software-previews/blob/main/anilist-provider.mjs)
-
-### Jemparo
-
-I’m developing four pre-launch tools for field work. SetAhead checks delivery readiness, UnitBrief captures equipment identifiers, CloseoutLink tracks outstanding handover items, and Basisford calculates equipment break-even points.
-
-[Try the four product previews](https://williammazanik.com/jemparo#preview) · [Replay out-of-order billing events](https://williammazanik.com/jemparo#engineering) · [Read the webhook tests](https://github.com/yslarid/software-previews/blob/main/jemparo.test.mjs)
-
-## Client web development
-
-At Arkwell Agency, I worked with clients from initial layouts through revisions and launch. I extended WordPress and Elementor sites with JavaScript and PHP, investigated browser and plugin compatibility issues, and improved asset delivery and on-page SEO.
-
-BSc in Computer Science, Trent University.
+Previously at Arkwell Agency, I built WordPress sites for clients, including a clinic where I connected therapist profiles to appointment requests. BSc in Computer Science, Trent University.

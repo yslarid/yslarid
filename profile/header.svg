@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">William Mazanik — Full-stack developer</title>
+  <desc id="desc">An engineering drawing of a tubular helical foundation pile with three copper-coloured flights and a two-hole drive coupling.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2=".13" gradientUnits="objectBoundingBox">
+      <stop stop-color="#161c1d"/><stop offset="1" stop-color="#202728"/>
+    </linearGradient>
+    <linearGradient id="shaft" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#888b7e"/><stop offset=".16" stop-color="#646c62"/>
+      <stop offset=".35" stop-color="#3e4844"/><stop offset=".68" stop-color="#2a3230"/>
+      <stop offset=".87" stop-color="#1c2324"/><stop offset="1" stop-color="#54594e"/>
+    </linearGradient>
+    <linearGradient id="copper" x1=".15" x2=".87" y1=".04" y2=".92" gradientUnits="objectBoundingBox">
+      <stop stop-color="#e4a780"/><stop offset=".26" stop-color="#c48056"/>
+      <stop offset=".54" stop-color="#ad6947"/><stop offset=".78" stop-color="#b87550"/><stop offset="1" stop-color="#8b553e"/>
+    </linearGradient>
+    <linearGradient id="reverse" x1="0" x2=".94" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#403530"/><stop offset=".54" stop-color="#6f4c3b"/><stop offset="1" stop-color="#a16b4d"/>
+    </linearGradient>
+    <pattern id="mill" patternUnits="userSpaceOnUse" width="4.8" height="4.8" patternTransform="rotate(32)">
+      <path d="M0 0V4.8" stroke="#452f26" stroke-width=".7"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" fill="url(#ground)"/>
+  <g font-family="Helvetica, Arial, sans-serif">
+    <path d="M58 100h54" stroke="#d59169" stroke-width="3.5"/>
+    <text x="54" y="180" font-size="76" font-weight="700" letter-spacing="-4.4" fill="#f4eee2">William Mazanik</text>
+    <text x="59" y="225" font-family="Menlo, Consolas, 'Liberation Mono', monospace" font-size="27" font-weight="400" letter-spacing="-.8" fill="#cbd0c6">Full-stack developer</text>
+  </g>
+  <g transform="translate(647 287) rotate(-24)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Projected centre line, envelope and two section planes. -->
+    <g fill="none" stroke="#606e68" stroke-width="1">
+      <path d="M-32 0H564" stroke-dasharray="12 5 2 5" opacity=".8"/>
+      <path d="M226 -91H397 M250 91H420 M322 -111V104" opacity=".42"/>
+      <ellipse cx="322" cy="0" rx="31.5" ry="91" stroke-dasharray="4 6" opacity=".59"/>
+      <ellipse cx="197" cy="0" rx="25" ry="72" stroke-dasharray="2 6" opacity=".37"/>
+      <path d="M318 -91h8 M322 -95v8 M318 91h8 M322 87v8 M194 -72h6 M197 -75v6" stroke="#99a298" opacity=".68"/>
+    </g>
+    <!-- Back surfaces lie behind the continuous central tube. -->
+    <g>
+      <path d="M80.84 43 C77.76 43 74.71 38.37 72.75 30.41 C70.8 22.45 69.97 11.26 70.72 0 C71.47 -11.26 73.8 -22.45 77.25 -30.41 C80.71 -38.37 85.26 -43 89.84 -43 L89.84 -10 C88.2 -10 86.57 -8.92 85.19 -7.07 C83.81 -5.22 82.69 -2.62 81.94 0 C81.19 2.62 80.81 5.22 80.69 7.07 C80.57 8.92 80.7 10 80.84 10 Z" fill="url(#reverse)"/>
+      <path d="M80.84 43 C77.76 43 74.71 38.37 72.75 30.41 C70.8 22.45 69.97 11.26 70.72 0 C71.47 -11.26 73.8 -22.45 77.25 -30.41 C80.71 -38.37 85.26 -43 89.84 -43 L89.84 -10 C88.2 -10 86.57 -8.92 85.19 -7.07 C83.81 -5.22 82.69 -2.62 81.94 0 C81.19 2.62 80.81 5.22 80.69 7.07 C80.57 8.92 80.7 10 80.84 10 Z" fill="url(#mill)" opacity=".23"/>
+      <path d="M78.66 26.86 L77.5 36.91" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M76.14 19.38 L73.5 26.63" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M75.37 4.29 L71.8 5.89" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M77.33 -9.96 L73.95 -13.68" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M82.97 -23.86 L81.02 -32.78" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M87.2 -27.74 L86.44 -38.12" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M80.84 43 C77.76 43 74.71 38.37 72.75 30.41 C70.8 22.45 69.97 11.26 70.72 0 C71.47 -11.26 73.8 -22.45 77.25 -30.41 C80.71 -38.37 85.26 -43 89.84 -43" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M80.84 43 C77.76 43 74.71 38.37 72.75 30.41 C70.8 22.45 69.97 11.26 70.72 0 C71.47 -11.26 73.8 -22.45 77.25 -30.41 C80.71 -38.37 85.26 -43 89.84 -43" fill="none" stroke="#ab775d" stroke-width="1.8"/>
+      <path d="M80.84 40 C78.03 40 75.24 35.69 73.47 28.28 C71.71 20.88 70.99 10.47 71.74 0 C72.49 -10.47 74.71 -20.88 77.97 -28.28 C81.24 -35.69 85.53 -40 89.84 -40" fill="none" stroke="#eab288" stroke-opacity=".3" stroke-width=".8"/>
+      <path d="M194.36 62 C189.76 62 185.19 55.32 182.2 43.84 C179.22 32.36 177.86 16.23 178.78 0 C179.7 -16.23 182.89 -32.36 187.7 -43.84 C192.52 -55.32 198.92 -62 205.36 -62 L205.36 -10 C203.55 -10 201.75 -8.92 200.21 -7.07 C198.66 -5.22 197.38 -2.62 196.46 0 C195.54 2.62 194.99 5.22 194.71 7.07 C194.42 8.92 194.39 10 194.36 10 Z" fill="url(#reverse)"/>
+      <path d="M194.36 62 C189.76 62 185.19 55.32 182.2 43.84 C179.22 32.36 177.86 16.23 178.78 0 C179.7 -16.23 182.89 -32.36 187.7 -43.84 C192.52 -55.32 198.92 -62 205.36 -62 L205.36 -10 C203.55 -10 201.75 -8.92 200.21 -7.07 C198.66 -5.22 197.38 -2.62 196.46 0 C195.54 2.62 194.99 5.22 194.71 7.07 C194.42 8.92 194.39 10 194.36 10 Z" fill="url(#mill)" opacity=".23"/>
+      <path d="M191.01 38.72 L189.14 54.89" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M187.06 27.94 L182.82 39.6" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M185.58 6.18 L179.84 8.76" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M188.09 -14.35 L182.65 -20.35" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M195.82 -34.4 L192.67 -48.76" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M201.68 -40 L200.46 -56.7" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M194.36 62 C189.76 62 185.19 55.32 182.2 43.84 C179.22 32.36 177.86 16.23 178.78 0 C179.7 -16.23 182.89 -32.36 187.7 -43.84 C192.52 -55.32 198.92 -62 205.36 -62" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M194.36 62 C189.76 62 185.19 55.32 182.2 43.84 C179.22 32.36 177.86 16.23 178.78 0 C179.7 -16.23 182.89 -32.36 187.7 -43.84 C192.52 -55.32 198.92 -62 205.36 -62" fill="none" stroke="#ab775d" stroke-width="1.8"/>
+      <path d="M194.36 59 C190.02 59 185.72 52.64 182.93 41.72 C180.13 30.8 178.88 15.45 179.8 0 C180.72 -15.45 183.8 -30.8 188.43 -41.72 C193.06 -52.64 199.19 -59 205.36 -59" fill="none" stroke="#eab288" stroke-opacity=".3" stroke-width=".8"/>
+      <path d="M318.76 79 C312.85 79 306.99 70.49 303.14 55.86 C299.29 41.24 297.52 20.68 298.65 0 C299.77 -20.68 303.79 -41.24 309.89 -55.86 C315.99 -70.49 324.1 -79 332.26 -79 L332.26 -10 C330.24 -10 328.24 -8.92 326.48 -7.07 C324.73 -5.22 323.24 -2.62 322.11 0 C320.99 2.62 320.23 5.22 319.73 7.07 C319.24 8.92 318.99 10 318.76 10 Z" fill="url(#reverse)"/>
+      <path d="M318.76 79 C312.85 79 306.99 70.49 303.14 55.86 C299.29 41.24 297.52 20.68 298.65 0 C299.77 -20.68 303.79 -41.24 309.89 -55.86 C315.99 -70.49 324.1 -79 332.26 -79 L332.26 -10 C330.24 -10 328.24 -8.92 326.48 -7.07 C324.73 -5.22 323.24 -2.62 322.11 0 C320.99 2.62 320.23 5.22 319.73 7.07 C319.24 8.92 318.99 10 318.76 10 Z" fill="url(#mill)" opacity=".23"/>
+      <path d="M314.44 49.34 L311.93 70.97" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M309.33 35.6 L303.65 51.21" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M307.33 7.87 L299.65 11.33" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M310.45 -18.29 L303.17 -26.31" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M320.2 -43.83 L315.99 -63.05" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M327.61 -50.97 L325.97 -73.31" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M318.76 79 C312.85 79 306.99 70.49 303.14 55.86 C299.29 41.24 297.52 20.68 298.65 0 C299.77 -20.68 303.79 -41.24 309.89 -55.86 C315.99 -70.49 324.1 -79 332.26 -79" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M318.76 79 C312.85 79 306.99 70.49 303.14 55.86 C299.29 41.24 297.52 20.68 298.65 0 C299.77 -20.68 303.79 -41.24 309.89 -55.86 C315.99 -70.49 324.1 -79 332.26 -79" fill="none" stroke="#ab775d" stroke-width="1.8"/>
+      <path d="M318.76 76 C313.12 76 307.52 67.81 303.86 53.74 C300.2 39.67 298.54 19.9 299.67 0 C300.79 -19.9 304.7 -39.67 310.61 -53.74 C316.52 -67.81 324.37 -76 332.26 -76" fill="none" stroke="#eab288" stroke-opacity=".3" stroke-width=".8"/>
+    </g>
+    <g>
+      <path d="M0 0 34 -10.5H520V10.5H34Z" fill="url(#shaft)" stroke="#b1ad97" stroke-width="1.25"/>
+      <path d="M0 0 34 -2.4H520" fill="none" stroke="#c1bdab" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M35 8.4H517" fill="none" stroke="#171d1b" stroke-width=".9"/>
+      <path d="M34 -9.5c-3.7 3.5-3.7 15.5 0 19.4" fill="none" stroke="#767a69" stroke-width="1.3"/>
+      <path d="M439 -10.7c-3 4.3-3 17.1 0 21.4 M444 -10.7c-3 4.3-3 17.1 0 21.4" stroke="#949483" stroke-width="1" fill="none" opacity=".8"/>
+      <path d="M473 -15.8H527v31.6h-54c-5.8-6-5.8-25.6 0-31.6z" fill="url(#shaft)" stroke="#c4b9a3" stroke-width="1.5"/>
+      <path d="M475 -13.2h51 M474 13.3h52" stroke="#c1b79f" opacity=".63" stroke-width=".9" fill="none"/>
+      <path d="M479 -15.2c-4.3 5.5-4.3 24.5 0 30.4" stroke="#99998a" stroke-width="1.2" fill="none"/>
+      <ellipse cx="527" cy="0" rx="5.5" ry="15.9" fill="#b8b3a1" stroke="#cec0a9" stroke-width="1.3"/>
+      <ellipse cx="527.5" cy="0" rx="3.6" ry="12" fill="#232b2a" stroke="#353e39" stroke-width="1.2"/>
+      <ellipse cx="494.2" cy="-1.5" rx="4.3" ry="4" fill="#1c2524" stroke="#bcb7a3" stroke-width="1.1"/>
+      <ellipse cx="511.5" cy="-1.5" rx="4.3" ry="4" fill="#1c2524" stroke="#bcb7a3" stroke-width="1.1"/>
+    </g>
+    <!-- The front halves overlap the shaft; each rim has an open radial cut. -->
+    <g>
+      <path d="M84.01 -31.35 C86.7 -25.49 88.77 -17.73 89.98 -9.38 C91.18 -1.03 91.51 7.87 91.01 15.83 C90.51 23.78 89.18 30.76 87.35 35.56 C85.51 40.37 83.18 43 80.84 43 L80.84 10 C80.95 10 81.05 9.39 81.04 8.27 C81.03 7.15 80.9 5.53 80.58 3.68 C80.26 1.83 79.75 -0.24 79.03 -2.18 C78.31 -4.12 77.39 -5.93 76.33 -7.29 Z" fill="url(#copper)"/>
+      <path d="M84.01 -31.35 C86.7 -25.49 88.77 -17.73 89.98 -9.38 C91.18 -1.03 91.51 7.87 91.01 15.83 C90.51 23.78 89.18 30.76 87.35 35.56 C85.51 40.37 83.18 43 80.84 43 L80.84 10 C80.95 10 81.05 9.39 81.04 8.27 C81.03 7.15 80.9 5.53 80.58 3.68 C80.26 1.83 79.75 -0.24 79.03 -2.18 C78.31 -4.12 77.39 -5.93 76.33 -7.29 Z" fill="url(#mill)" opacity=".5"/>
+      <path d="M82.5 -16.26 L85.46 -22.34" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M84.81 -7.84 L88.28 -10.78" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M86.17 1.98 L89.77 2.73" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M86.27 13.11 L89.48 18.01" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M84.67 23.08 L86.77 31.72" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M82.26 27.75 L83.01 38.14" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M84.01 -31.35 C86.7 -25.49 88.77 -17.73 89.98 -9.38 C91.18 -1.03 91.51 7.87 91.01 15.83 C90.51 23.78 89.18 30.76 87.35 35.56 C85.51 40.37 83.18 43 80.84 43" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M84.01 -31.35 C86.7 -25.49 88.77 -17.73 89.98 -9.38 C91.18 -1.03 91.51 7.87 91.01 15.83 C90.51 23.78 89.18 30.76 87.35 35.56 C85.51 40.37 83.18 43 80.84 43" fill="none" stroke="#e7aa83" stroke-width="1.8"/>
+      <path d="M83.31 -29.16 C85.85 -23.71 87.82 -16.49 88.98 -8.73 C90.14 -0.96 90.49 7.33 90.06 14.72 C89.64 22.12 88.44 28.61 86.77 33.08 C85.11 37.56 82.98 40 80.84 40" fill="none" stroke="#eab288" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M76.33 -7.29 L84.01 -31.35" fill="none" stroke="#382820" stroke-width="3"/>
+      <path d="M76.33 -7.29 L84.01 -31.35" fill="none" stroke="#e5ad85" stroke-width="1" transform="translate(1 0)"/>
+      <path d="M89.84 -43 C94.23 -43 98.61 -38.74 102.01 -31.35 L94.33 -7.29 C92.98 -9.01 91.41 -10 89.84 -10 Z" fill="url(#copper)"/>
+      <path d="M89.84 -43 C94.23 -43 98.61 -38.74 102.01 -31.35 L94.33 -7.29 C92.98 -9.01 91.41 -10 89.84 -10 Z" fill="url(#mill)" opacity=".5"/>
+      <path d="M91.68 -28.07 L92.21 -38.58" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M95.76 -25.07 L97.45 -34.45" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M89.84 -43 C94.23 -43 98.61 -38.74 102.01 -31.35" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M89.84 -43 C94.23 -43 98.61 -38.74 102.01 -31.35" fill="none" stroke="#e7aa83" stroke-width="1.8"/>
+      <path d="M89.84 -40 C93.98 -40 98.1 -36.04 101.31 -29.16" fill="none" stroke="#eab288" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M94.33 -7.29 L102.01 -31.35" fill="none" stroke="#382820" stroke-width="3"/>
+      <path d="M94.33 -7.29 L102.01 -31.35" fill="none" stroke="#e5ad85" stroke-width="1" transform="translate(1 0)"/>
+      <path d="M200.43 -45.2 C204.18 -36.75 207.05 -25.56 208.66 -13.52 C210.27 -1.49 210.63 11.35 209.78 22.82 C208.93 34.29 206.89 44.35 204.12 51.28 C201.35 58.21 197.86 62 194.36 62 L194.36 10 C194.34 10 194.32 9.39 194.18 8.27 C194.04 7.15 193.79 5.53 193.34 3.68 C192.89 1.83 192.25 -0.24 191.41 -2.18 C190.56 -4.12 189.52 -5.93 188.33 -7.29 Z" fill="url(#copper)"/>
+      <path d="M200.43 -45.2 C204.18 -36.75 207.05 -25.56 208.66 -13.52 C210.27 -1.49 210.63 11.35 209.78 22.82 C208.93 34.29 206.89 44.35 204.12 51.28 C201.35 58.21 197.86 62 194.36 62 L194.36 10 C194.34 10 194.32 9.39 194.18 8.27 C194.04 7.15 193.79 5.53 193.34 3.68 C192.89 1.83 192.25 -0.24 191.41 -2.18 C190.56 -4.12 189.52 -5.93 188.33 -7.29 Z" fill="url(#mill)" opacity=".5"/>
+      <path d="M198.13 -23.44 L202.89 -33.23" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M201.25 -11.31 L206.83 -16.03" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M202.98 2.86 L208.78 4.06" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M202.88 18.9 L208.03 26.78" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M200.28 33.28 L203.66 47.18" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M196.53 40.01 L197.75 56.72" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M200.43 -45.2 C204.18 -36.75 207.05 -25.56 208.66 -13.52 C210.27 -1.49 210.63 11.35 209.78 22.82 C208.93 34.29 206.89 44.35 204.12 51.28 C201.35 58.21 197.86 62 194.36 62" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M200.43 -45.2 C204.18 -36.75 207.05 -25.56 208.66 -13.52 C210.27 -1.49 210.63 11.35 209.78 22.82 C208.93 34.29 206.89 44.35 204.12 51.28 C201.35 58.21 197.86 62 194.36 62" fill="none" stroke="#e7aa83" stroke-width="1.8"/>
+      <path d="M199.73 -43.01 C203.34 -34.97 206.1 -24.33 207.67 -12.87 C209.23 -1.41 209.6 10.8 208.83 21.72 C208.06 32.63 206.15 42.2 203.55 48.8 C200.94 55.4 197.65 59 194.36 59" fill="none" stroke="#eab288" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M188.33 -7.29 L200.43 -45.2" fill="none" stroke="#382820" stroke-width="3"/>
+      <path d="M188.33 -7.29 L200.43 -45.2" fill="none" stroke="#e5ad85" stroke-width="1" transform="translate(1 0)"/>
+      <path d="M205.36 -62 C211.54 -62 217.69 -55.86 222.43 -45.2 L210.33 -7.29 C208.82 -9.01 207.09 -10 205.36 -10 Z" fill="url(#copper)"/>
+      <path d="M205.36 -62 C211.54 -62 217.69 -55.86 222.43 -45.2 L210.33 -7.29 C208.82 -9.01 207.09 -10 205.36 -10 Z" fill="url(#mill)" opacity=".5"/>
+      <path d="M207.92 -40.48 L208.78 -57.37" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M213.59 -36.15 L216.31 -51.24" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M205.36 -62 C211.54 -62 217.69 -55.86 222.43 -45.2" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M205.36 -62 C211.54 -62 217.69 -55.86 222.43 -45.2" fill="none" stroke="#e7aa83" stroke-width="1.8"/>
+      <path d="M205.36 -59 C211.28 -59 217.18 -53.16 221.73 -43.01" fill="none" stroke="#eab288" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M210.33 -7.29 L222.43 -45.2" fill="none" stroke="#382820" stroke-width="3"/>
+      <path d="M210.33 -7.29 L222.43 -45.2" fill="none" stroke="#e5ad85" stroke-width="1" transform="translate(1 0)"/>
+      <path d="M326.89 -57.59 C331.64 -46.83 335.26 -32.57 337.28 -17.23 C339.3 -1.89 339.72 14.47 338.6 29.08 C337.49 43.7 334.86 56.5 331.29 65.34 C327.73 74.17 323.25 79 318.76 79 L318.76 10 C318.58 10 318.4 9.39 318.11 8.27 C317.81 7.15 317.4 5.53 316.79 3.68 C316.19 1.83 315.39 -0.24 314.38 -2.18 C313.38 -4.12 312.18 -5.93 310.83 -7.29 Z" fill="url(#copper)"/>
+      <path d="M326.89 -57.59 C331.64 -46.83 335.26 -32.57 337.28 -17.23 C339.3 -1.89 339.72 14.47 338.6 29.08 C337.49 43.7 334.86 56.5 331.29 65.34 C327.73 74.17 323.25 79 318.76 79 L318.76 10 C318.58 10 318.4 9.39 318.11 8.27 C317.81 7.15 317.4 5.53 316.79 3.68 C316.19 1.83 315.39 -0.24 314.38 -2.18 C313.38 -4.12 312.18 -5.93 310.83 -7.29 Z" fill="url(#mill)" opacity=".5"/>
+      <path d="M323.92 -29.87 L330.29 -42.97" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M327.84 -14.41 L335.31 -20.73" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M329.99 3.65 L337.75 5.25" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M329.8 24.08 L336.69 34.63" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M326.4 42.41 L330.93 61.01" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M321.56 50.99 L323.19 73.34" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M326.89 -57.59 C331.64 -46.83 335.26 -32.57 337.28 -17.23 C339.3 -1.89 339.72 14.47 338.6 29.08 C337.49 43.7 334.86 56.5 331.29 65.34 C327.73 74.17 323.25 79 318.76 79" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M326.89 -57.59 C331.64 -46.83 335.26 -32.57 337.28 -17.23 C339.3 -1.89 339.72 14.47 338.6 29.08 C337.49 43.7 334.86 56.5 331.29 65.34 C327.73 74.17 323.25 79 318.76 79" fill="none" stroke="#e7aa83" stroke-width="1.8"/>
+      <path d="M326.19 -55.4 C330.79 -45.05 334.31 -31.34 336.28 -16.58 C338.26 -1.82 338.69 13.92 337.66 27.98 C336.62 42.04 334.12 54.36 330.72 62.86 C327.32 71.36 323.05 76 318.76 76" fill="none" stroke="#eab288" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M310.83 -7.29 L326.89 -57.59" fill="none" stroke="#382820" stroke-width="3"/>
+      <path d="M310.83 -7.29 L326.89 -57.59" fill="none" stroke="#e5ad85" stroke-width="1" transform="translate(1 0)"/>
+      <path d="M332.26 -79 C340.09 -79 347.89 -71.18 353.89 -57.59 L337.83 -7.29 C336.12 -9.01 334.19 -10 332.26 -10 Z" fill="url(#copper)"/>
+      <path d="M332.26 -79 C340.09 -79 347.89 -71.18 353.89 -57.59 L337.83 -7.29 C336.12 -9.01 334.19 -10 332.26 -10 Z" fill="url(#mill)" opacity=".5"/>
+      <path d="M335.5 -51.57 L336.64 -74.18" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M342.66 -46.06 L346.3 -66.26" fill="none" stroke="#382c26" stroke-opacity=".42" stroke-width=".8"/>
+      <path d="M332.26 -79 C340.09 -79 347.89 -71.18 353.89 -57.59" fill="none" stroke="#392824" stroke-width="3.6" transform="translate(-1.2 0)"/>
+      <path d="M332.26 -79 C340.09 -79 347.89 -71.18 353.89 -57.59" fill="none" stroke="#e7aa83" stroke-width="1.8"/>
+      <path d="M332.26 -76 C339.83 -76 347.37 -68.48 353.19 -55.4" fill="none" stroke="#eab288" stroke-opacity=".65" stroke-width=".8"/>
+      <path d="M337.83 -7.29 L353.89 -57.59" fill="none" stroke="#382820" stroke-width="3"/>
+      <path d="M337.83 -7.29 L353.89 -57.59" fill="none" stroke="#e5ad85" stroke-width="1" transform="translate(1 0)"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#a18d74" stroke-width="1.1">
+    <path d="M972 205l37 47h126"/>
+    <circle cx="972" cy="205" r="2.7" fill="#dfac82" stroke="#252a26"/>
+  </g>
+  <text x="1010" y="279" font-family="Menlo, Consolas, 'Liberation Mono', monospace" font-size="19" letter-spacing="-.5" fill="#d6c9b6">Helical pile</text>
+</svg>
